@@ -1,0 +1,90 @@
+form {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 50px;
+    width : 450px;
+    box-shadow: 0 10px 10px lightgray;
+    display: inline-block;
+}
+
+h1,h2, p {
+  text-align: center;
+  text-decoration: aqua;
+  text-shadow: 40px;
+  color: Green;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: aqua;
+  text-shadow: 40px;
+  color: Green;
+}
+
+input {
+  color: blue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+  }
+
+
+
+input[type="submit"]  
+{
+      display: block;
+      background-color:blue;
+      border: none ;
+      padding: 10px 100px;
+      border-radius: 5px;
+      font-size: 20px;
+      text-align: center;
+      margin: auto;
+}
+
+fa fa-facebook {
+    font-size: 15px !important;
+    font-size: 900px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.divider::after,
+.divider::before {
+  content: "";
+  border: 1px solid black;
+  flex: 1;
+}
+
+
+.divider:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+  .btn{
+    margin-right: 250px;
+  }
+
+  body {
+    text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
