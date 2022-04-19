@@ -1,0 +1,39 @@
+form {
+    border-radius: 5px;
+    padding: 50px;
+    width : 750px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]  
+{
+    display: block;
+    background-color: darkcyan;
+    border: none ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 18px;  
+      
+}
+
+body {
+    background-image: url(Images/Shopping.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+
+  
